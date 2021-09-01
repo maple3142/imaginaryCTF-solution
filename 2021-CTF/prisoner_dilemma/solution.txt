@@ -1,0 +1,2 @@
+Enter "q:" to open command line window (See https://vimhelp.org/cmdline.txt.html)
+Then enter insert mode to type "!/bin/sh" then enter, and you will get shell!

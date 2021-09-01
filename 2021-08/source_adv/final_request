@@ -1,0 +1,7 @@
+curl 'https://sources-adventure-fortified.max49.repl.co/vault?flag2=ictf%7Bd3v3l0p3r_t00ls_ar3_gr3at_6c6f6c%7D' -X POST -H "X-Robots-Tag: jctf{cl0s1ng_t4gs_4nd_0p3n1ng_t4gs_1n_xml}" -H "User-Agent: msmith_is_a_great_username" --cookie "flag1=ictf{rsa_was_just_unn3c3ssary}"
+
+https://pastebin.com/gGeMyzjm
+
+hashed password (hashes are impossible to break!): be4f8f97604a2891bc0eeef9ddd93d456a9e04c758e9f80772014b647e877789
+
+crackstation: be4f8f97604a2891bc0eeef9ddd93d456a9e04c758e9f80772014b647e877789 -> iluvcurtains

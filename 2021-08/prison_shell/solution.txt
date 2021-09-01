@@ -1,0 +1,3 @@
+cut -c -999 culprit
+tic -C culprit
+pr culprit

@@ -1,0 +1,10 @@
+# gdb.execute("gef config context.enable false")
+gdb.execute('gef config context.nb_lines_stack 25')
+gdb.execute("file ./merinthophobia")
+gdb.Breakpoint("*0x401151")
+gdb.execute("r < /dev/urandom")
+while True:
+    print(chr(gdb.parse_and_eval("$rsi")))
+    print(gdb.parse_and_eval('$rdx'))
+    gdb.execute("set $rdi = $rsi")
+    gdb.execute("c")

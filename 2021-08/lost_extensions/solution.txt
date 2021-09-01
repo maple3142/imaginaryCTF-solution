@@ -1,0 +1,13 @@
+use 7z header to get key = action
+1. txt: shop -> ictf{x
+2. elf: soap -> 0r1ng_
+3. exe: up -> 4ll_ty
+4. png: workshop -> p3s_0f
+5. jpg: zero -> _f1l3s
+6. mp3: arm -> _1s_4_
+7. mp4: magazine -> gr3at_
+8. xlsx: remember -> w4y_t0
+9. docx: profit -> _w4st3
+10. pdf: golf -> _t1me!}
+
+ictf{x0r1ng_4ll_typ3s_0f_f1l3s_1s_4_gr3at_w4y_t0_w4st3_t1me!}
