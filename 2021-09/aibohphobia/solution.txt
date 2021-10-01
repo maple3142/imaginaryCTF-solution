@@ -1,0 +1,5 @@
+gdb:
+start
+call (void)printFlag(0x00005555555580c0)
+c
+

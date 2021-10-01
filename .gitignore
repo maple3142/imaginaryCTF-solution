@@ -1,1 +1,8 @@
+.vscode
 *.sage.py
+
+2021-09/high_volatility/*vmem*
+2021-09/secure_volatility/*vmem*
+2021-09/shuffled/output
+2021-09/shuffled_again/unshuffled
+2021-09/oh_stegano/stegcrack

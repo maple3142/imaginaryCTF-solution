@@ -1,0 +1,9 @@
+my solution: eval eval eval eval eval eval eval eval eval sh   (3 spaces after sh)
+flag: ictf{w0wwwww_s0OOoo0O0oo0o0oOoOoOo0o0o_m@ny_wAy5_2_c47_23456_35cmb,z6at}
+
+normal ways:
+pr, nl
+tac, sed, rev
+less, head, tail
+zmore, zless, iconv
+bzmore, bzless, column, expand

@@ -1,0 +1,2 @@
+strings ../high_volatility/vol.vmem | grep ictf
+ictf{volatility_1s_3Pic_@nD_FUN}

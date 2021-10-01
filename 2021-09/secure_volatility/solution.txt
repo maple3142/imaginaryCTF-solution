@@ -1,0 +1,5 @@
+1. Install volatility3 (from Arch repo)
+2. Download Windows symbols: https://downloads.volatilityfoundation.org/volatility3/symbols/windows.zip (instructions: https://github.com/volatilityfoundation/volatility3)
+3. vol -f secvol.vmem -s symbols hashdump > hashes
+4. Use https://crackstation.net/ to crack user Ada's password hash: eec749d0fd4f0825736e23183e6fed9d
+5. Result is "fastcrack", so the flag is "ictf{fastcrack}"

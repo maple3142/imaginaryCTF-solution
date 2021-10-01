@@ -1,0 +1,5 @@
+CVE-2021-27211 steghide use weak random seed that can be bruteforced
+https://github.com/b4shfire/stegcrack
+compile then `stegcrack ../chal.jpg`
+
+stegseek works too: https://github.com/RickdeJager/stegseek

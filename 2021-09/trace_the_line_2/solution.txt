@@ -1,0 +1,4 @@
+notice that the hash is md5 of number, so you can simply calculate md5("13371337") = "8c64c9e92196bcdd76935912a21648bc"
+then goto http://puzzler7.imaginaryctf.org:13337/8c64c9e92196bcdd76935912a21648bc to get flag
+
+ictf{unsalted_hashes_deserve_to_get_hacked_and_eaten_like_tater_tots}

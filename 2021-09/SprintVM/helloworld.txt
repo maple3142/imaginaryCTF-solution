@@ -1,0 +1,54 @@
+%1$72s%3$hhn   ; load 'H' into ram
+%1$2s%9$hhn    ; invoke syscall nr. 2 (putchar)
+
+%1$101s%3$hhn  ; load 'e' into ram
+%1$2s%9$hhn    ; invoke syscall nr. 2 (putchar)
+
+%1$108s%3$hhn  ; load 'l' into ram
+%1$2s%9$hhn    ; invoke syscall nr. 2 (putchar)
+%1$2s%9$hhn    ; invoke syscall nr. 2 (putchar)
+
+%1$111s%3$hhn  ; load 'o' into ram
+%1$2s%9$hhn    ; invoke syscall nr. 2 (putchar)
+
+%1$32s%3$hhn  ; load ' ' into ram
+%1$2s%9$hhn    ; invoke syscall nr. 2 (putchar)
+
+%1$87s%3$hhn   ; load 'W' into ram
+%1$2s%9$hhn    ; invoke syscall nr. 2 (putchar)
+
+%1$111s%3$hhn  ; load 'o' into ram
+%1$2s%9$hhn    ; invoke syscall nr. 2 (putchar)
+
+%1$114s%3$hhn  ; load 'r' into ram
+%1$2s%9$hhn    ; invoke syscall nr. 2 (putchar)
+
+%1$108s%3$hhn  ; load 'l' into ram
+%1$2s%9$hhn    ; invoke syscall nr. 2 (putchar)
+
+%1$100s%3$hhn  ; load 'd' into ram
+%1$2s%9$hhn    ; invoke syscall nr. 2 (putchar)
+
+
+; hello world
+%1$72s%3$hhn
+%1$2s%9$hhn
+%1$101s%3$hhn
+%1$2s%9$hhn
+%1$108s%3$hhn
+%1$2s%9$hhn
+%1$2s%9$hhn
+%1$111s%3$hhn
+%1$2s%9$hhn
+%1$32s%3$hhn
+%1$2s%9$hhn
+%1$87s%3$hhn
+%1$2s%9$hhn
+%1$111s%3$hhn
+%1$2s%9$hhn
+%1$114s%3$hhn
+%1$2s%9$hhn
+%1$108s%3$hhn
+%1$2s%9$hhn
+%1$100s%3$hhn
+%1$2s%9$hhn
