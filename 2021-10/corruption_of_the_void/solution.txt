@@ -1,0 +1,5 @@
+CyberChef:
+base64 decode
+remove diacritics
+
+ictf{3very_+!m3_50m30n3_tr13s_2_p@r5e_hTmL_w1+h_r3g3x_@l1_y0u_g3t_15_r3gr3+5}

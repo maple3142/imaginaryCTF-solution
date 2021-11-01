@@ -1,0 +1,7 @@
+zhgq{lv_tzqg_gr_vrj_zd_gwzd_:_vng_borgwna_nbdv_hwbii}
+
+use https://quipqiup.com/ to get the flag
+
+ictf{my_gift_to_you_is_this_:_yet_another_easy_chall}
+
+although the intended is https://www.dcode.fr/affine-cipher

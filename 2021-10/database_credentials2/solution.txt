@@ -1,0 +1,5 @@
+curl 'https://api.github.com/repos/Et3rnos/ImaginaryCTF/events?page=4' | jq '.[] | select(.type == "PushEvent") | .payload.commits[] | { message, sha }'
+https://github.com/Et3rnos/ImaginaryCTF/blob/9cad45df9775b5f8c16afd16540a4eca11099c14/iCTF%20Website/appsettings.json
+
+ictf{FD9BBGUtL3JwZXb7EF54k7c4u3H5GcMG}
+

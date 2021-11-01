@@ -1,0 +1,9 @@
+https://github.com/Et3rnos/ImaginaryCTF/commit/a186909eef6e095cfbedaeda5bdf834afd423d37
+git show a186909eef6e095cfbedaeda5bdf834afd423d37 -- 'iCTF Website/appsettings.json'
+
+ictf{nzH82LdJ4jbjYNS2X8FmdzsXqDQC9y3U}
+
+
+note:
+git log -S =n  # search commits that contains `n`
+

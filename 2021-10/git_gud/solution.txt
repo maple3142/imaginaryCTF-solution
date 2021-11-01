@@ -1,0 +1,5 @@
+1. Dump the git repo from http://puzzler7.imaginaryctf.org:1337/.git
+2. git stash
+3. git checkout 526855ad69f1
+4. git checkout flag.txt
+5. cat flag.txt

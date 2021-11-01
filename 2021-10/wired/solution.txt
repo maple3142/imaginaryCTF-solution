@@ -1,0 +1,26 @@
+Solution 1: Use wireshark to capture the traffic, and see the flag
+Solution 2: Patch Python intepreter by adding these code in the function `_PyEval_EvalFrameDefault`
+
+#include "marshal.h"
+
+PyObject* _Py_HOT_FUNCTION
+_PyEval_EvalFrameDefault(PyThreadState *tstate, PyFrameObject *f, int throwflag)
+{
+    _Py_EnsureTstateNotNULL(tstate);
+    const char *s1 = PyBytes_AS_STRING(PyUnicode_AsEncodedString(f->f_code->co_filename, "utf-8", "~E~"));
+    const char *s2 = PyBytes_AS_STRING(PyUnicode_AsEncodedString(f->f_code->co_name, "utf-8", "~E~"));
+    printf("eval %s %s\n", s1, s2);
+    if(strstr(s1,"login_manager")!=0&&strstr(s2,"<module>")!=0){
+        FILE *fp = fopen("out.bin", "w");
+        PyMarshal_WriteObjectToFile(f->f_code, fp, 0); // need #include "marshal.h"
+        fclose(fp);
+        puts("written");
+    }
+#ifdef DXPAIRS
+    int lastopcode = 0;
+#endif
+    PyObject **stack_pointer;  /* Next free slot in value stack */
+    const _Py_CODEUNIT *next_instr;
+    int opcode;        /* Curr
+
+Then run the script with your patched intepreter, then use marshal module to load the dumped code object and get flag from co_consts

@@ -1,0 +1,1 @@
+python -c 'print("a"*32)' | nc puzzler7.imaginaryctf.org 3333

