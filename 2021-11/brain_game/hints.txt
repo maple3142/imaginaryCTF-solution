@@ -1,0 +1,14 @@
+Since you really need hints to solve it, let's get to it
+The message is encrypted in XOR, you must CONFESS(use given key) to decrypt it
+
+confess: I_am_n00b
+hint 1: ÌdÏ`.jÔ+ÔcÅ+ÍnÍn.+ÙdÕ+Í~Ó..`Îd×+ÔcÅ+ÌjÎlÕjÇn.gÏlÏ+Âr.eÏ|.+ÔcÅ+Ï.ÈnÒ+ÏeÅ+ÃjÎ+Ân.xÅjÒhÈnÄ+ÏeÌbÎn.
+
+confess: python_bad
+hint 2: ÃbÏ-ÙlÔ-Ø.ßlÑ-ÞbÍc.lÔi.lÞi.nÕ`×hÔyÉ-Îb.yÒh.}ÈbÝ.Û`.yÕ-×lÑh.dÎ-ßlÉdß..yÕ-ÏcÞhÈ~ÎlÔi
+
+confess: java_good
+hint 3: þeÏ-.~Þ-Ú.ÅjØlÇ-ÌxÄnÞdÅcÙ-Ã~.zØdÞyÏc.~ßnÂ-ÞeËy.tÅx.fÄbÝ-ÂbÝ-Þb.oØhËf.iÅzÄ-ÞeÃ~.cÏuÞ-ÇbÄ~ÞhØ
+
+confess: python_bad_java_good
+final hint: Ó®.ÉúÌ.©Ä×ªÁßúÎÈ£ÝÎµ.Ê¨ÂÝ¨Ì×ö.Î¨Ô.¸ßß»ÆÓ´Ê.¾ÂÍ´.Îµ.Ï´Éß¨ÞÎ»ÃÞúÄÎ

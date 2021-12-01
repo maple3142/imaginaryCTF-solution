@@ -1,0 +1,60 @@
+import java.util.Scanner;
+public class first{
+static String outpu;
+    public static void l(int a,int j)
+    {
+        for(int i = 0;i<j;i++)
+       {
+        outpu = outpu + Character.toString((char) a);
+       }
+    }
+    public static void k(int a)
+    {
+        outpu = outpu + Character.toString((char) a);
+    }
+    public static void main(String []args){
+        outpu = "";
+        Scanner sc = new Scanner(System.in);
+        System.out.println("remember this language has 8 operations, know the operations first");
+        System.out.println("1. which operation is used to initiate a loop");
+        char ch = sc.next().charAt(0);
+        int a = ch;
+       int a1 = a+2;
+       System.out.println("2. which operation is used to increment a value in an address");
+       ch = sc.next().charAt(0);
+       int b = ch;
+       int b1 = b+2;
+       System.out.println("3. which operation is used to shift address to the left");
+       ch = sc.next().charAt(0);
+       int c = ch;
+       int c1 = c+2;
+       System.out.println("4. which operation is used to take user input");
+       ch = sc.next().charAt(0);
+       int d = ch;
+       int d1 = d+2;
+       sc.close();
+       System.out.println("ictf{");
+       l(c1,17);k(b);l(c,17);
+       k(d);l(c1,3);k(d);l(c1,3);k(d);k(d1);l(c,3);k(d1);l(c,3);k(d1);
+       l(b,6);l(c1,3);l(b,3);l(c1,3);k(b1);k(d1);l(c,6);k(d1);l(c1,3);k(d1);l(c1,3);
+       k(c1);l(b,10);k(d1);
+       l(c,6);l(b1,2);k(a);l(b1,5);k(c1);k(b);k(c);k(a1);k(c1);k(b1);
+       l(c,2);k(a);k(b1);l(c1,2);k(b1);l(c,2);k(a1);
+       l(c1,2);k(a);l(c1,10);k(b);l(c,10);k(a);k(b1);l(a1,2);
+       l(c1,2);l(b,2);k(a);l(b1,10);k(c1);k(b);k(c);k(a1);
+       l(c1,2);k(a);k(b1);k(c);k(b1);k(c1);k(a1);
+       k(c);k(a);l(c1,7);k(b);l(c,7);k(a);k(b1);l(a1,2);
+       k(c);k(b1);k(a);l(b1,5);;k(c1);k(b);k(c);k(a1);k(c1);
+       l(c,2);k(a);k(b1);l(c1,2);k(b1);l(c,2);k(a1);
+       l(c1,2);k(a);l(c1,7);k(b);l(c,7);k(a);k(b1);l(a1,2);
+       l(c1,2);k(d1);
+       l(c1,5);k(a);k(c1);l(b,10);k(d1);k(c1);l(b1,6);k(a);l(b1,2);k(c1);l(b,3);
+        k(c);k(a1);k(c1);k(d1);l(b1,5);k(d1);l(b1,3);k(d1);k(b1);k(d1);l(b1,7);
+        k(d1);l(c1,2);k(b1);l(c,3);k(a);k(b1);l(a1,2);
+       l(c1,5);k(a);k(c1);l(b,10);k(d1);k(a);l(b1,7);k(c1);l(b,3);k(c);k(a1);k(c1);
+        k(d1);l(b1,9);k(d1);l(b1,2);k(d1);k(b);k(d1);l(b,12);k(d1);;k(a);k(b1);l(a1,2);
+       System.out.println(outpu);
+       System.out.println("}");
+       System.out.println("now this is where the fun begins.....");
+    }
+}

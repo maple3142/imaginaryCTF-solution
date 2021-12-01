@@ -1,0 +1,3 @@
+# because flag * key < n
+print((enc // n).to_bytes(128, 'big'))
+
