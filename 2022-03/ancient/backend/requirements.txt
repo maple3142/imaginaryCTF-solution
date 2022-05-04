@@ -1,0 +1,4 @@
+Flask==2.0.2
+gevent==21.8.0
+gunicorn==20.1.0
+lxml==4.8.0

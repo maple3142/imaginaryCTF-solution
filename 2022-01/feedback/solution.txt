@@ -1,0 +1,1 @@
+F12 -> F5 -> Network -> Ctrl-F -> search `ictf{`
