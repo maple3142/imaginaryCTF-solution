@@ -1,0 +1,14 @@
+# defining T/F/N rails
+# None nor False == True
+none false true
+#
+# some clocks
+false clock3 output
+false output clock1
+false clock1 clock2
+clock1 clock2 clock3
+
+# true inputs
+
+# false inputs
+false

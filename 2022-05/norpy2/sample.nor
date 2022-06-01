@@ -1,0 +1,19 @@
+# look, a comment!
+# here's some gates below
+wire1 wire2 wire3
+wire3 wire3 wire4
+wire5 wire6 wire7
+wire1 wire4 output
+#
+# if you want to leave blank lines for spacing, make sure you make them comments
+# (like above and below)
+#
+# the next newline is very important
+# it signals the end of gates
+
+# next is the list of inputs that start as true (can be empty)
+wire2 wire5
+# next is the list of inputs that start as false (can be empty)
+wire6
+# inputs not listed above will start as none
+# none is the same as false, except none NOR none is none

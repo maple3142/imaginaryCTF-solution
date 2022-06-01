@@ -1,0 +1,2 @@
+the validate function uses default arguments, which is the same list in every run
+so you can add a new character in each run until the full payload can be used

@@ -1,0 +1,10 @@
+output 0 b
+b output c
+c b d
+d b e
+e 0 output
+
+1
+0
+# (cat x.nor | base64 | tr -d '\n'; echo ) | nc puzzler7.imaginaryctf.org 1008
+# ictf{nors_arent_the_most_efficient_but_thats_neither_here_nor_there}

