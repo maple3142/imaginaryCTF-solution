@@ -1,0 +1,8 @@
+DTMF
+https://unframework.github.io/dtmf-detect/#/
+444222833344462433#33664448877772233#3336667773369998444633
+alternative: `multimon-ng -t wav -a DTMF ./flag-new.wav 2>/dev/null | awk -v ORS="" '{ if($1 == "DTMF:") print $2 }'`
+
+https://www.dcode.fr/multitap-abc-cipher
+ICTFIMAGE ENIUSBE FOREMYTIME
+ictf{imageeniusbeforemytime}

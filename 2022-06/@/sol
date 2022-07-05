@@ -1,0 +1,9 @@
+https://alt.org/nethack/player-all.php?player=puzzler7
+
+import bcrypt
+deaths=set(["killed by a sasquatch","quit","quit","quit","killed by a giant bat","quit","quit","killed by an ettin zombie","quit","quit","quit","killed by a jackal","quit","quit","killed by a giant rat","killed by a boiling potion","quit","killed by a small mimic","killed by Mr. Aksaray, the shopkeeper","quit","quit","quit","killed by a jackal","killed by a newt","killed by a boulder","killed by a death ray","killed by kicking a door","quit","quit","killed by a rabid rat","quit","choked on a food ration","killed by an energy vortex","killed by a bolt of fire","quit","quit","killed by a winter wolf","quit","killed by a giant rat","killed by an arrow","quit","quit","killed by a chameleon imitating a rock troll","quit","quit","killed by a soldier ant","quit","killed by a small mimic","killed by Ms. Pakka Pakka, the shopkeeper","quit","quit","killed by a dog","quit","killed by a hill orc","quit"])
+for d in deaths: FLAG=f'ictf{{{d}}}'.replace(' ', '_').replace('a(n)','a');print(FLAG,bcrypt.kdf(FLAG.encode(), b"ictf_@", 16, 200).hex())
+# find which matches 31c66eb84ea9bf6b68f9f5514690864a
+
+ictf{killed_by_a_chameleon_imitating_a_rock_troll}
+

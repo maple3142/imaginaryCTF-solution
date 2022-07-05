@@ -1,0 +1,4 @@
+http://puzzler7.imaginaryctf.org:2000/check?url=https://www.google.com/teapot
+
+That's a teapot! ictf{if_(response.short()_&&_response.stout()):_return_response.tip_over()_&&_response.pour_out()}
+
