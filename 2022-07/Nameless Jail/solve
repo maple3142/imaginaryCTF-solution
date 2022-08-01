@@ -1,0 +1,1 @@
+(cat sol | tr '\n' ';' | sed 's/NNN/\n/g'; echo) | nc puzzler7.imaginaryctf.org 3004
